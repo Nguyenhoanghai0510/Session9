@@ -1,0 +1,11 @@
+let a = Number(prompt('Nhập số thứ nhất: '));
+let b = Number(prompt('Nhập số thứ hai: '));
+let c = Number(prompt('Nhập số thứ ba: '));
+let max = a;
+max = (max<b)? b:max;
+max = (max<c)? c:max;
+let min = a;
+min = (min>b)? b:min;
+min = (min>c)? c:min;
+document.write('Số max là: ' +max+ '<br>');
+document.write('Số min là: ' +min);

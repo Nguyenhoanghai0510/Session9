@@ -1,0 +1,1 @@
+let check = confirm('Bạn đã đủ 18 tuổi chưa!: ');

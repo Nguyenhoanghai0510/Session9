@@ -1,0 +1,11 @@
+let studentId = prompt('Nhập mã sinh viên của bạn: ');
+let studentName= prompt('Nhập tên của bạn: ');
+let age = prompt ('Nhập tuổi của bạn: ');
+let pointHtml = +prompt('Nhập điểm Html của bạn: ');
+let pointCss = +prompt('Nhập điểm Css của bạn: ');
+let pointJavascript = +prompt('Nhập điểm Javascript của bạn: ');
+let average = (pointHtml + pointCss + pointJavascript) / 3;
+document.write('Mã sinh của bạn là: ' +studentId+'<br>' );
+document.write('Tên của bạn là: ' +studentName+'<br>');
+document.write('Tuổi của bạn là: ' +age+'<br>');
+document.write('Điểm trung bình của bạn là: ' +average);

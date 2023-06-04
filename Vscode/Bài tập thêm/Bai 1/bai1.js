@@ -1,0 +1,1 @@
+let message = alert('Thầy Quang đẹp trai');
